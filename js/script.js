@@ -56,7 +56,7 @@ var circle = L.circle([44.516508, 3.472193], {
 
 var marker = L.marker([44.5154350622595, 3.498090533660161]).addTo(mymap);
 
-marker.bindPopup("<b><u>Théâtre Municipal</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>???(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
+marker.bindPopup("<b><u>Espace Evènements Georges Frêche</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>???(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.5154350622595, 3.498090533660161], {
     color: 'yellow',
@@ -108,11 +108,11 @@ var circle = L.circle([44.508293, 3.462901], {
 }).addTo(mymap);
 
 
-// Nouvelle Mairie Mende
+// Hôtel de Ville
 
 var marker = L.marker([44.5180881, 3.5017153000000008]).addTo(mymap);
 
-marker.bindPopup("<b><u>Nouvelle Mairie</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>8816.7(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
+marker.bindPopup("<b><u>Hôtel de Ville</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>8816.7(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.5180881, 3.5017153000000008], {
     color: 'red',
@@ -120,3 +120,11 @@ var circle = L.circle([44.5180881, 3.5017153000000008], {
     fillOpacity: 0.5,
     radius: 20
 }).addTo(mymap);
+
+
+// colors :
+
+// -> green : "low consumption"
+// -> orange : "average consumption"
+// -> red : "high consumption"
+// -> yellow : "not indicated"
