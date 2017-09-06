@@ -28,14 +28,21 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 
 var marker = L.marker([44.518006, 3.501849]).addTo(mymap);
 
-marker.bindPopup("<b>Mairie</b><br>Mende").openPopup();
+marker.bindPopup("<b><u>'Ancienne' Mairie</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>???(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
+
+var circle = L.circle([44.518006, 3.501849], {
+    color: 'yellow',
+    fillColor: 'yellow',
+    fillOpacity: 0.5,
+    radius: 20
+}).addTo(mymap);
 
 
 // Piscine Municipale
 
 var marker = L.marker([44.516508, 3.472193]).addTo(mymap);
 
-marker.bindPopup("<b>Piscine Municipale</b><br>Mende").openPopup();
+marker.bindPopup("<b><u>Piscine Municipale</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>???(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.516508, 3.472193], {
     color: 'yellow',
@@ -49,7 +56,7 @@ var circle = L.circle([44.516508, 3.472193], {
 
 var marker = L.marker([44.5154350622595, 3.498090533660161]).addTo(mymap);
 
-marker.bindPopup("<b>Espace Evènements Georges Frêche</b><br>Mende").openPopup();
+marker.bindPopup("<b><u>Théâtre Municipal</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>???(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.5154350622595, 3.498090533660161], {
     color: 'yellow',
@@ -63,7 +70,7 @@ var circle = L.circle([44.5154350622595, 3.498090533660161], {
 
 var marker = L.marker([44.515001, 3.499085]).addTo(mymap);
 
-marker.bindPopup("<b><u>Théâtre Municipal</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>4163.2(kw/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
+marker.bindPopup("<b><u>Théâtre Municipal</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>4163.2(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.515001, 3.499085], {
     color: 'green',
@@ -77,7 +84,7 @@ var circle = L.circle([44.515001, 3.499085], {
 
 var marker = L.marker([44.518594, 3.503218]).addTo(mymap);
 
-marker.bindPopup("<b><u>Groupe Scolaire Jean Bonijol</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>7989.2(kw/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
+marker.bindPopup("<b><u>Groupe Scolaire Jean Bonijol</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>7989.2(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.518594, 3.503218], {
     color: 'red',
@@ -91,7 +98,7 @@ var circle = L.circle([44.518594, 3.503218], {
 
 var marker = L.marker([44.508293, 3.462901]).addTo(mymap);
 
-marker.bindPopup("<b>Service Technique Municipal</b><br>Mende").openPopup();
+marker.bindPopup("<b><u>Service Technique Municipal</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>???(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.508293, 3.462901], {
     color: 'yellow',
@@ -105,7 +112,7 @@ var circle = L.circle([44.508293, 3.462901], {
 
 var marker = L.marker([44.5180881, 3.5017153000000008]).addTo(mymap);
 
-marker.bindPopup("<b><u>Nouvelle Mairie</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>8816.7(kw/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
+marker.bindPopup("<b><u>Nouvelle Mairie</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>8816.7(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.5180881, 3.5017153000000008], {
     color: 'red',
