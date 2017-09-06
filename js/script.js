@@ -5,7 +5,7 @@ mymap.pm.addControls(options);
 // define toolbar options
 
 var options = {
-    position: 'topleft', 
+    position: 'topleft',
     drawMarker: true,
     drawPolygon: true,
     drawPolyline: true,
@@ -15,7 +15,6 @@ var options = {
 };
 
 
-
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
     maxZoom: 20,
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
@@ -23,3 +22,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
         'Imagery © <a href="http://mapbox.com">Mapbox</a>',
     id: 'mapbox.streets'
 }).addTo(mymap);
+
+
+// Espace Georges Frêche
+
+var marker = L.marker([44.5154350622595, 3.498090533660161]).addTo(mymap);
