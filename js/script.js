@@ -1,5 +1,19 @@
 
 var mymap = L.map('mapid').setView([44.516787291861, 3.497662300000002], 15.7);
+mymap.pm.addControls(options);
+
+// define toolbar options
+
+var options = {
+    position: 'topleft', 
+    drawMarker: true,
+    drawPolygon: true,
+    drawPolyline: true,
+    drawCircle: true,
+    editPolygon: true,
+    deleteLayer: true
+};
+
 
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
