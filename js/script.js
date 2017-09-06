@@ -29,3 +29,10 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 var marker = L.marker([44.5154350622595, 3.498090533660161]).addTo(mymap);
 
 marker.bindPopup("<b>Espace Evènements Georges Frêche</b><br>Mende").openPopup();
+
+var circle = L.circle([44.5154350622595, 3.498090533660161], {
+    color: 'yellow',
+    fillColor: 'yellow',
+    fillOpacity: 0.5,
+    radius: 30
+}).addTo(mymap);
