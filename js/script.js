@@ -73,8 +73,8 @@ var marker = L.marker([44.515001, 3.499085]).addTo(mymap);
 marker.bindPopup("<b><u>Théâtre Municipal</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>4163.2(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
 
 var circle = L.circle([44.515001, 3.499085], {
-    color: 'green',
-    fillColor: 'green',
+    color: 'orange',
+    fillColor: 'orange',
     fillOpacity: 0.5,
     radius: 30
 }).addTo(mymap);
@@ -105,6 +105,20 @@ var circle = L.circle([44.508293, 3.462901], {
     fillColor: 'yellow',
     fillOpacity: 0.5,
     radius: 10
+}).addTo(mymap);
+
+
+// Monument
+
+var marker = L.marker([44.517269248909365, 3.498601073155214]).addTo(mymap);
+
+marker.bindPopup("<b><u>'Monument'</u></b><br>Consommation Electrique Moyenne du Bâtiment : <b>789.8(kWh/an)</b><br>Comment Améliorer La Consommation ?").openPopup();
+
+var circle = L.circle([44.517269248909365, 3.498601073155214], {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+    radius: 40
 }).addTo(mymap);
 
 
